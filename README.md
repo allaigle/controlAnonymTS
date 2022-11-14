@@ -1,5 +1,12 @@
 # Analysis of an anonymization method
 
+After the creation of a method to anonymize time series (TS), it is important to compare orginial and anonymized TS. Here a four scripts to :
+1. measure normalized multivariate dissimilarities,
+2. generate CSV files with **average, standard deviation, median, minimun or maximum values** from the distribution of normalized dissimilarities,
+3. generate CSV with **statistical test results** for one physiological parameter and a pair of parameters,
+4. make a boxplot illustating normalized dissimilarity distributions between original and anonymized TS for all parameters.
+
+
 ## analysis_anonym_meth1_part1.py
 
 This python script allows to measure normalized multivariate dissimilarities between real patient timeseries and anonymized timeseries.
@@ -27,6 +34,7 @@ This command line will create statistical datasets for each physiological parame
 This python script allows to generate the different csv files containing either average, standard deviation, median, minimun or maximum values from the distribution of normalized dissimilarities.
 
 ### Precondition : 
+
 All packages cited in the analysis_anonym_meth1_part1.py script have been installed and are commun to both scripts (part1 and part2).
 
 ### Execution
